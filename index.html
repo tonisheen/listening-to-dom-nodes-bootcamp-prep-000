@@ -39,7 +39,10 @@
     </div>
     <script>
       const divs = document.querySelectorAll('div');
-      
+      function capture(e) {
+        console.log(this.firstChild.nodeValue.trim() + ' captured');
+        
+      }
     </script>
   </body>
 </html>
